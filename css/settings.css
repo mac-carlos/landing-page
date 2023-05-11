@@ -1,0 +1,19 @@
+@import "generic.css";
+@import "base.css";
+@import "objects.css";
+@import "components.css";
+@import "trumps.css";
+@import "tools.css";
+
+:root {
+    --medium-container: 900px;
+    --container: 1240px;
+
+    --section-padding: 4rem 0;
+
+    --blue: #33f;
+    --gray: #e6e6e6;
+    --dim-gray: #1b1b2b;
+    --yellow: #ffbb3a;
+    --pink: #FF1F7B;
+}

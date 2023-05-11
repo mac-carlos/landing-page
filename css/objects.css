@@ -1,0 +1,38 @@
+.container,
+.medium-container {
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.warp {
+    flex-wrap: wrap;
+}
+
+.warp-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.horizontal-center {
+    justify-content: center;
+}
+
+.vertical-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    /*align-items: center;*/
+    gap: 3rem;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}

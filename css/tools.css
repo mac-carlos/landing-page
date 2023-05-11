@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+    .container {
+        max-width: var(--container);
+    }
+
+    .medium-container {
+        max-width: var(--medium-container);
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+
+    .card {
+        margin: 0 5% 0 15%;
+    }
+
+    .mobile-warp {
+        flex-wrap: nowrap;
+    }
+
+    .swiper-slide img {
+        width: 300px;
+    }
+
+    .mobile-warp-reverse {
+        flex-wrap: nowrap;
+    }
+
+    .swiper-slide {
+	    min-height: 480px;
+	    clip-path: polygon(0% 0%,95% 0,100% 7%,100% 100%,0% 100%);
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1,
+    #form h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .gap-5 {
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+
+    .swiper-slide {
+        height: auto !important;
+        flex-direction: column;
+    }
+    .swiper-slide img {
+        height: 500px;
+        object-fit: cover;
+    }
+}
